@@ -46,5 +46,37 @@
 .newsflash{
     width: 250px;
     height: 455px;
-    background-color: skyblue;
+}
+.news{
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news_hd{
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 32px; 
+}
+.news_hd a{
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news_bd{
+    padding: 10px 0 0 15px;
+  
+}
+.news_bd li{
+    height: 23px;
+}
+.liftservice{
+    height: 208px;
+    background-color: purple;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.bargain{
+    margin-top: 5px;
+    height: 75px;
 }
