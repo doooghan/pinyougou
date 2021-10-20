@@ -266,3 +266,35 @@
     text-align: center;
     margin-left: 10px;
 }
+.box-bd img{
+    transition: all 0.2s;
+}
+.box-bd img:hover{
+    margin-left: 8px;
+}
+.box-bd li{
+    overflow: hidden;
+}
+
+
+/* 电梯导航区 */
+.floortool{
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -677px;
+    width: 66px;
+    background-color: #fff;
+}
+.floortool li{
+    width: 66px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.floortool .current{
+    color: #fff;
+    background-color: #c81623;
+}
