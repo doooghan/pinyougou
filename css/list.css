@@ -1,0 +1,63 @@
+.sk{
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    border-left: 1px solid #c81523;
+    padding: 5px 0 0 14px;
+}
+
+.sk-list li{
+    float: left;
+    line-height: 45px;
+    margin: 0 30px;
+}
+.sk-list li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk-list li a:hover{
+    color: #c81523;
+}
+.sk-con li{
+    float: left;
+    line-height: 45px;
+    margin: 0 20px;
+}
+.sk-con li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'icomoon';
+}
+
+/* 内容区 */
+.sk-bd{
+    margin-top: 25px;
+}
+.sk-goods{
+    width: 283px;
+    height: 458px;
+    border: 1px solid #c81523;
+}
+.sk-goods img{
+    padding: 36px 34px;
+}
+.sk-goods-title{
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+    padding: 10px;
+}
+.sk-goods-price{
+    padding: 0 10px;
+}
+.sk-goods-price em{
+    color: #e60012;
+    font-size: 22px;
+}
+.sk-goods-price del{
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+}
