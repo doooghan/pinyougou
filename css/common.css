@@ -156,6 +156,7 @@
     line-height: 31px;
     margin-left: 1px;
     padding: 0 10px;
+    color: #fff;
     transition: all .5s;
 }
 .menu_item:hover{

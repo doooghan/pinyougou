@@ -1,0 +1,23 @@
+.de-container{
+    margin-top: 15px;
+}
+.crumb-wrap{
+    height: 25px;
+}
+.de-container a{
+    margin: 0 10px;
+}
+.preview-wrap{
+    width: 352px;
+    height: 590px;
+}
+.preview-img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+}
+
+.itemInfo-wrap{
+    width: 718px;
+    background-color: skyblue;
+}
