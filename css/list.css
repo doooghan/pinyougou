@@ -35,9 +35,18 @@
 .sk-bd{
     margin-top: 25px;
 }
+.sk-bd ul{
+    width: 1218px;
+}
 .sk-goods{
-    width: 283px;
+    position: relative;
+    float: left;
+    width: 288px;
     height: 458px;
+    border: 1px solid transparent;
+    margin: 0 12px 15px 0;
+}
+.sk-goods:hover{
     border: 1px solid #c81523;
 }
 .sk-goods img{
@@ -60,4 +69,75 @@
     font-size: 14px;
     font-weight: 700;
     color: #a4a4a4;
+}
+.sk-goods-progress{
+    padding: 0 10px;
+}
+.sk-goods-progress em,
+.sk-goods-progress i{
+    color: #c81523;
+}
+.bar{
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #c81523;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.bar-in{
+    width: 87%;
+    height: 10px;
+    background-color: #c81523;
+}
+.sk-goods-buy{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #c81523;
+    color: #fff;
+    font-size: 20px;
+}
+
+.page{
+    margin: 40px 0;
+    text-align: center;
+}
+.page-num a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    line-height: 36px;
+}
+.page-num .page-prve,
+.page-num .page-next{
+    width: 83px;
+}
+.page-num .current,
+.page-num .dotted{
+    border: 1px solid transparent;
+    background: transparent;
+}
+.page-skip input{
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all 0.3s;
+}
+.page-skip input:focus{
+    width: 88px;
+    border: 1px solid skyblue;
+}
+.page-skip button{
+    width: 54px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
 }
