@@ -214,7 +214,6 @@
 
 .aside{
     width: 208px;
-    height: 1000px;
     border: 1px solid #ccc;
 }
 .tab-list{
@@ -241,8 +240,65 @@
     width: 103px;
     border-left: 1px solid #ccc;
 }
+.tab-con{
+    padding: 0 10px;
+}
+.tab-con li{
+    border-bottom: 1px solid #ccc;
+}
+.tab-con li img{
+    margin: 10px 14px;
+}
+.tab-con li p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.aside-price{
+    margin: 10px 0;
+    font-weight: 700;
+}
+.aside-addcar{
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 26px;
+    margin: 10px auto;
+}
+
 .detail{
     width: 978px;
-    height: 1000px;
+}
+.detail-tab-list{
+    height: 39px;
     border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.detail-tab-list li{
+    float: left;
+    height: 39px;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 39px;
+    cursor: pointer;
+}
+.detail-tab-list li.current{
+    background-color: #c81623;
+    color: #fff;
+}
+.product-detail{
+    margin-bottom: 20px;
+}
+.item-info{
+    padding: 20px 0 0 20px;
+}
+.item-info li{
+    line-height: 22px;
+}
+.more {
+    float: right;
+    font-weight: 700;
 }
