@@ -1,0 +1,77 @@
+.w1200{
+   width: 1200px;
+   margin: auto;
+}
+.header{
+    height: 82px;
+    border-bottom: 2px solid #c81623;
+}
+.logo{
+    /* margin-top: 15px; */
+    padding-top: 15px;
+}
+.registerarea{
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3{
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.registerarea em{
+    float: right;
+    font-size: 14px;
+}
+.registerarea a{
+    color: #c81623;
+}
+.reg-form ul{
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+    /* background-color: pink; */
+}
+.reg-form li{
+    margin-bottom: 15px;
+}
+.reg-form label{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+.reg-form input{
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin: 0 15px;
+}
+.error {
+    color: #df3033;
+}
+.error-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png);
+    vertical-align: middle;
+    margin-bottom: -2px
+}
+.success{
+    color: #40b83f;
+}
+.success-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png);
+    vertical-align: middle;
+    margin-bottom: -2px
+}
