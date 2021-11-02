@@ -5,9 +5,19 @@
 }
 .focus{
     position: relative;
-    width: 720px;
+    width: 721px;
     height: 455px;
     background-color: purple;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+.focus ul li {
+    float: left;
 }
 .arrow_l,
 .arrow_r{
@@ -22,6 +32,7 @@
     font-family: 'icomoon';
     font-size: 18px;
     color: #fff;
+    z-index: 2;
 }
 .arrow_r{
     right: 0;
